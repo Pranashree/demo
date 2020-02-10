@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "5673c7a3-a829-47a4-a64d-22a83794b92e"
+        },
+        "name": {
+            "value": "AppTest01vs"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "ASP-Movie-a67d"
+        },
+        "serverFarmResourceGroup": {
+            "value": "Movie"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "netFrameworkVersion": {
+            "value": "v4.0"
+        }
+    }
+}
